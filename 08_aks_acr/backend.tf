@@ -3,6 +3,6 @@ terraform {
   resource_group_name  = "CMT"
   storage_account_name = "cmtterraformstate"
   container_name       = "cmttfstate"
-  
+  key                  = "terraform.tfstate"
   }
 }
